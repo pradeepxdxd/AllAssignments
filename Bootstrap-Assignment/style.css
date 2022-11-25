@@ -1,0 +1,45 @@
+.bgimage{
+    background: url('../image/bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 560px;
+}
+.head-title{
+    padding-top: 12%;
+}
+.headerset{
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+.headerset h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.headerset h2{
+    font-size: 40px;
+}
+.ourservices{
+    padding: 100px 60px;
+    margin-top: 15%;
+}
+.port .row{
+    padding-left: 100px;
+}
+.common{
+    /* border: 1px solid red; */
+    height: 500px;
+    align-items: center;
+    margin-top: 10px;
+}
+.com{
+    height: 470px;
+    text-align: center;
+}
+.wdt{
+    margin: 8px;
+}
+.cntct{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}

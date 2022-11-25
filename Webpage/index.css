@@ -1,0 +1,212 @@
+#slider>div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#slider>div:first-child {
+    justify-content: start;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel-caption>h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.carousel-caption>h5 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.carousel-caption {
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100%;
+    left: 7rem;
+
+}
+
+.carousel-caption button {
+    margin: 20px 0px;
+    width: fit-content;
+}
+
+#addidas {
+
+    justify-content: start;
+
+
+}
+
+#services>div {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: fit-content;
+    padding: 0.6rem 5rem;
+}
+
+#services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.featured>header>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+#cardbox {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#cardbox .card {
+    margin: 1rem;
+}
+
+#cardbox .card img {
+    width: 100%;
+    height: 11rem;
+}
+
+.divide {
+    display: flex;
+    align-items: center;
+}
+
+.alncenter {
+    display: flex;
+    align-items: center;
+}
+
+.size {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.insta {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.insta>img {
+    height: 10rem;
+    width: auto;
+}
+
+.scrollcat {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.scrollcat .reviews {
+    font-size: 0.5rem;
+}
+
+.scrollcat .opts {
+    font-size: 0.8rem;
+    width: min-content;
+    padding: 0.4rem 0.4rem;
+    margin: 0.1rem;
+    cursor: pointer;
+}
+
+.scrollcat img {
+    height: 135px;
+}
+
+.bg-black{
+    background: rgb(105, 105, 105);
+}
+
+#footerimg {
+    position: relative; 
+    background: url("../images/footer.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+#footerover {
+    position: relative; 
+    /* background: rgba(0, 0, 0, 0.5); */
+    background: url('./img/footer-img1');
+    background-size: cover;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#footprof {
+    height: 6rem;
+    width: 6rem;
+}
+
+#contact {
+    background: url('../images/contact-background.jpg');
+    background-size: cover;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.highlight {
+    background: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+}
+
+#signup>div:first-child {
+    font-size: 3rem;
+}
+
+.form-control::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+#signup>div:first-child>span {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width:450px) {
+    html {
+        font-size: 10px;
+    }
+}

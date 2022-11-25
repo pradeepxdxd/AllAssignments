@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./calculate.css">
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h1 class="fw-normal hd">Basic Calculator</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="calculus">
+                        <div class="input-system">
+                            <input class="in-sys" type="text">
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <button class="button num">9</button>
+                                <button class="button num">8</button>
+                                <button class="button num">7</button>
+                                <button class="button opt">*</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="button num">4</button>
+                                <button class="button num">5</button>
+                                <button class="button num">6</button>
+                                <button class="button opt">/</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="button num">1</button>
+                                <button class="button num">2</button>
+                                <button class="button num">3</button>
+                                <button class="button opt">+</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="button spcl">.</button>
+                                <button class="button num">0</button>
+                                <button class="button enter">=</button>
+                                <button class="button opt">-</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="button enter">C</button>
+                                <button class="button opt">%</button>
+                                <button class="button opt">Del</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="history">
+                        <div class="history-border">
+                            <h6>History</h6>
+                            <p id="hist">
+                            </p>
+                        </div>
+                        <div class="btx">
+                            <button id="clearAll" type="button" class="btn btn-outline-light boton">Clear</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="./calculators.js"></script>
+</body>
+
+</html>

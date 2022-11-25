@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Fuzzy+Bubbles&family=Kalam:wght@700&family=Montserrat:wght@100&family=Oswald:wght@300&family=Roboto:wght@300&family=Tangerine&family=Titan+One&display=swap');
+
+.bg-light-custom{
+    background: rgb(255, 255, 255);
+}
+.nav-adjustment{
+    margin-left: 200px;
+}
+.logo-adjustment{
+    margin-left: 170px;
+}
+.icon-color{
+    color: rgb(179, 179, 179);
+}
+.icon-color:hover{
+    color: rgb(22, 162, 243);
+}
+.web-logo{
+    width: 40px;
+}
+.banner{
+    position: relative;
+}
+.head-text{
+    color: rgb(224, 224, 224);
+    position: absolute;
+}
+.head-text1{
+    top: 200px;
+    left: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head-text2{
+    top: 240px;
+    left: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head-text3{
+    top: 290px;
+    left: 50px;
+}
+.head-text-btn{
+    position: absolute;
+    top: 360px;
+    left: 50px;
+}
+.super-icon{
+    margin-right: 12px;
+}
+.heading-feat{
+    text-align: center;
+    font-size: large;
+}
+.nav-adjustment-mini{
+    margin-left: 320px;
+}
+.cards{
+    border: 1px solid black;
+    height: 700px;
+}
+.card-custom{
+    margin: 13px 13px 13px 13px;
+}
+/* .card-text-setup{
+    border: 1px solid red;
+
+}
+.card-text-down{
+    border: 1px solid blue;
+    position: absolute;
+    bottom: 0;
+} */
+.insta-text{
+    text-align: center;
+}
+.insta-img{
+    height: 170px;
+}
+
+.scroller-div{
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 1000px;
+}
+
+@media screen and (max-width:987px) {
+    .nav-adjustment{
+        margin-left: 0px
+    }
+    .logo-adjustment{
+        margin-left: 0px;
+    }
+    .nav-adjustment-mini{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:567px) {
+    .nav-adjustment-mini{
+        margin-left: 0px;
+    }
+}

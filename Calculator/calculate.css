@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Montserrat:wght@100&family=Roboto:wght@300&family=Tangerine&family=Titan+One&display=swap');
+
+.container {
+    background: rgb(92, 68, 15);
+    border: 1px solid rgb(255, 238, 0);
+    border-radius: 7px;
+    width: 900px;
+    height: 400px;
+    margin-top: 2%;
+}
+
+.hd {
+    margin: 60px 0 0 0;
+    font-family: 'Comforter Brush', cursive;
+}
+
+.in-sys {
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    margin: 13px 0;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.row .col .button {
+    color: white;
+    width: 4vw;
+    margin: 4px 2px;
+    border-radius: 4px;
+    border: none;
+}
+
+.opt {
+    background: rgb(94, 92, 92);
+}
+
+.num {
+    background: rgb(6, 11, 51);
+}
+
+.spcl {
+    background: rgb(26, 25, 25);
+}
+
+.enter {
+    background: rgb(235, 128, 57);
+}
+
+.calculus {
+    /* border: 1px solid black; */
+    width: 95vh;
+}
+.history{
+    border: 1px solid black;
+    height: 224px;
+    width: 70vh;
+    float: right;
+}
+
+.history-border {
+    /* border: 1px solid white; */
+    
+    /* height: 224px; */
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.boton{
+    margin-top: 5px;
+    margin-left: 6px;
+    width: 75px;
+    height: 40px;
+}
+
+@media screen and (max-width:2946px) {
+    .container {
+        background: rgb(240, 203, 125);
+        border: 1px solid rgb(0, 195, 255);
+        border-radius: 7px;
+        width: 100vw;
+        height: 500px;
+        margin-top: 2%;
+    }
+    .calculus {
+        border: 1px solid black;
+        /* width: 95vh; */
+    }
+    .history-border {
+        /* border: 1px solid white; */
+        width: 60vh;
+        float: right;
+        height: 224px;
+        font-family: 'Fuzzy Bubbles', cursive;
+    }
+    .boton{
+        /* margin-top: 5px;
+        margin-left: 6px; */
+        width: 75px;
+        height: 40px;
+        
+    }
+}
+
+@media screen and (max-width:1399px) {
+    .container {
+        background: rgb(240, 203, 125);
+        border: 1px solid rgb(0, 195, 255);
+        border-radius: 7px;
+        width: 100vw;
+        height: 550px;
+        margin-top: 2%;
+    }
+    .calculus {
+        /* border: 1px solid black; */
+        width: 75vh;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .container {
+        background: rgb(240, 203, 125);
+        border: 1px solid rgb(0, 195, 255);
+        border-radius: 7px;
+        width: 100vw;
+        height: 550px;
+        margin-top: 2%;
+    }
+    .calculus {
+        /* border: 1px solid black; */
+        width: 60vh;
+    }
+}
+@media screen and (max-width:990px) {
+    .container {
+        background: rgb(240, 203, 125);
+        border: 1px solid rgb(0, 195, 255);
+        border-radius: 7px;
+        width: 100vw;
+        height: 450px;
+        margin-top: 2%;
+    }
+    .calculus {
+        /* border: 1px solid black; */
+        width: 40vh;
+        margin-left: 16px;
+    }
+    .history{
+        border: 1px solid black;
+        height: 224px;
+        width: 40vh;
+        float: right;
+        margin-right: 12px;
+    }
+}
+@media screen and (max-width:763px) {
+    .container {
+        background: rgb(240, 203, 125);
+        border: 1px solid rgb(0, 195, 255);
+        border-radius: 7px;
+        width: 100vw;
+        height: 500px;
+        margin-top: 2%;
+    }
+    .calculus {
+        border: 1px solid black;
+        width: 30vh;
+        margin-left: 16px;
+    }
+    .history{
+        /* border: 1px solid black; */
+        height: 224px;
+        width: 30vh;
+        float: right;
+        margin-right: 12px;
+    }
+    .in-sys {
+        /* border: 1px solid black; */
+        border-radius: 4px;
+        margin: 13px 0;
+        padding: 0 30px;
+        text-align: center;
+        width: 160px;
+    }
+    .history-border {
+        border: 1px solid white;
+        float: right;
+        width: 30vh;
+        /* height: 224px; */
+        font-family: 'Fuzzy Bubbles', cursive;
+    }
+}
+
+@media screen and (max-width:519px) {
+    .container {
+        background: rgb(240, 203, 125);
+        border: 1px solid rgb(0, 195, 255);
+        border-radius: 7px;
+        width: 100vw;
+        height: 700px;
+        margin-top: 2%;
+    }
+    .calculus {
+        border: 1px solid black;
+        width: 30vh;
+        margin-top: 8px;
+        margin-left: 16px;
+        align-items: center;
+        margin-left: 140px;
+    }
+    .history{
+        border: 1px solid black;
+        height: 224px;
+        width: 30vh;
+        margin-right: 132px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .container {
+        background: rgb(240, 203, 125);
+        border: 1px solid rgb(0, 195, 255);
+        border-radius: 7px;
+        width: 100vw;
+        height: 700px;
+        margin-top: 2%;
+    }
+    .calculus {
+        border: 1px solid black;
+        width: 30vh;
+        margin-top: 8px;
+        /* margin-left: 10px; */
+        align-items: center;
+        margin-left: 140px;
+    }
+    .history{
+        border: 1px solid black;
+        height: 224px;
+        width: 30vh;
+        /* margin-right: 132px; */
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:363px) {
+    .container {
+        background: rgb(240, 203, 125);
+        border: 1px solid rgb(0, 195, 255);
+        border-radius: 7px;
+        width: 100vw;
+        height: 700px;
+        margin-top: 2%;
+    }
+    .calculus {
+        border: 1px solid black;
+        width: 20vh;
+        /* margin-top: 8px; */
+        /* margin-left: 10px; */
+        /* align-items: center; */
+        /* margin-left: 140px; */
+        float: left;
+    }
+    .history{
+        border: 1px solid black;
+        height: 224px;
+        width: 30vh;
+        /* margin-right: 132px; */
+        margin-top: 25px;
+        margin-left: 23px;
+    }
+    .boton{
+        margin-top: 5px;
+        margin-left: 6px;
+        width: 95px;
+        height: 40px;
+    }
+    .in-sys {
+        /* border: 1px solid black; */
+        border-radius: 4px;
+        margin: 13px 0;
+        padding: 0 30px;
+        text-align: center;
+        width: 100px;
+    }
+}
