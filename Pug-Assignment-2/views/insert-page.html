@@ -1,0 +1,25 @@
+
+<html> 
+  <head> 
+    <title>Insert Product</title>
+    <link rel="stylesheet" href="/css/insertpage.css"/>
+  </head>
+  <body> 
+    <h1 class="head">Insert Your Product</h1><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="container">
+      <form action="/insert/product-data" method="post"> 
+        <label for="pname">Product Name : </label>
+        <input class="inp-custom" type="text" name="pname"/><br/>
+        <label for="price">Price :</label>
+        <input class="inp-custom" type="text" name="price"/><br/>
+        <label for="qun">Quantity :</label>
+        <input class="inp-custom" type="text" name="qun"/><br/>
+        <label for="imgurl">Image Url : </label>
+        <input class="inp-custom" type="text" name="imgurl"/><br/>
+        <button class="btn btn-danger" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+html 
+    head 
+        title Insert Product
+        link(rel="stylesheet", href="/css/insertpage.css") 
+    body 
+        h1.head Insert Your Product
+        include bootstrap-links.html
+        .container
+            form(action="/insert/product-data", method="post") 
+                label(for="pname") Product Name : 
+                input(type="text" name="pname" class="inp-custom") 
+                br
+
+                label(for="price") Price :
+                input(type="text", name="price" class="inp-custom") 
+                br
+
+                label(for="qun") Quantity :
+                input(type="text", name="qun" class="inp-custom") 
+                br
+
+                label(for="imgurl") Image Url : 
+                input(type="text", name="imgurl" class="inp-custom")
+                br
+
+                button(type="submit" class="btn btn-danger") Submit
+            

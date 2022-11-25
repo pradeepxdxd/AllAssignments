@@ -1,0 +1,28 @@
+html 
+    head 
+        title Contact 
+    body 
+        include bootstrap.html
+        include header.pug
+        .container
+            h1.text-center Contact us
+            form(method='post' action='data')
+                .mb-3
+                    label.form-label(for='exampleInputEmail1') Full Name
+                    input#exampleInputEmail1.form-control(name='name' type='text' aria-describedby='emailHelp')
+                .mb-3
+                    label.form-label(for='exampleInputEmail1') Email address
+                    input#exampleInputEmail1.form-control(name='email' type='email' aria-describedby='emailHelp')
+                .mb-3
+                    label.form-label(for='exampleInputPassword1') Password
+                    input#exampleInputPassword1.form-control(name='pass' type='password')
+                .mb-3
+                    label.form-label(for='exampleInputPassword1') Age
+                    input#exampleInputPassword1.form-control(name='age' type='text')
+                .mb-3
+                    label.form-label(for='exampleInputPassword1') City
+                    input#exampleInputPassword1.form-control(name='city' type='text')
+                .mb-3
+                    label.form-label(for='exampleInputPassword1') Mobile
+                    input#exampleInputPassword1.form-control(name='mobile' type='text')
+                button.btn.btn-primary(type='submit') Submit

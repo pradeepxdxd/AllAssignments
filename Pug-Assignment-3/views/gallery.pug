@@ -1,0 +1,27 @@
+html 
+    head 
+        title Gallery 
+    body 
+        include bootstrap.html
+        include header.pug
+        -let array = arr;
+        .container
+            -for(let i = 0; i < array.length - 2; i+=2){
+                .row
+                    .col-sm-6
+                        .card(style='width: 18rem;')
+                        img.card-img-top(src=array[i] alt='...')
+                        .card-body
+                            h5.card-title Card title
+                            p.card-text
+                            | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+                            a.btn.btn-primary(href='#') Go somewhere
+                    .col-sm-6
+                        .card(style='width: 18rem;')
+                        img.card-img-top(src=array[i + 1] alt='...')
+                        .card-body
+                            h5.card-title Card title
+                            p.card-text
+                            | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+                            a.btn.btn-primary(href='#') Go somewhere
+            -}

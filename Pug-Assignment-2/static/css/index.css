@@ -1,0 +1,16 @@
+.container{
+    margin: 13px 14px;
+}
+.container a{
+    margin: 13px 14px;
+}
+.insert-link{
+    color: red;
+    background: pink;
+    font-family: monospace;
+}
+.show-link{
+    color: rgb(76, 0, 255);
+    background: cyan;
+    font-family: monospace;
+}

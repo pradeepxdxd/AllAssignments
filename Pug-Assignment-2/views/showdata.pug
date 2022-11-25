@@ -1,0 +1,16 @@
+html 
+    head 
+        title All Products 
+        link(rel="stylesheet", href="/css/showproduct.css")
+    body 
+        include bootstrap-links.html
+        .container
+            each i in array 
+                .card 
+                    //- - var img=!{i.imgurl}
+                    //- img(src=img, alt="error")
+                    img(src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80", alt="error" class="img-custom")
+                    .card-body 
+                        h2.card-title Product Name : #{i.pname}
+                        h4.card-text Price : #{i.price}
+                        h4.card-text Quantity : #{i.qun}

@@ -1,0 +1,8 @@
+{{> header}}
+<h1>Hello World</h1>
+<p>My Name is {{done.name}} and my age is {{done.age}}.</p>
+<ul>
+    {{#each done.hobbies}}
+    <li> {{this}} </li>
+    {{/each}}
+</ul>

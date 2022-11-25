@@ -1,0 +1,32 @@
+html 
+    head 
+        title Home Page 
+        link(rel="stylesheet", href="/css/index.css")
+    body 
+        include bootstrap-links.html
+        nav.navbar.navbar-expand-lg.navbar-light.bg-light
+            a.navbar-brand(href='#') Home
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+  
+            .collapse.navbar-collapse(id='navbarSupportedContent')
+                ul.navbar-nav.mr-auto
+                    li.nav-item.active
+                        a.nav-link(href='#') Home
+                    li.nav-item
+                        a.nav-link(href='#') Food Courts
+                    li.nav-item
+                        a.nav-link(href='#') Parking
+                    li.nav-item
+                        a.nav-link(href='#') Places
+                ul.navbar-nav.float-right
+                    li.nav-item
+                        a.nav-link(href='#') Login
+                    li.nav-item.dropdown
+                        a.nav-link.dropdown-toggle(id='navbarDropdownMenuLink', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Accounts
+            .dropdown-menu(aria-labelledby='navbarDropdownMenuLink')
+                a.dropdown-item(href='#') Settings
+        
+        .container
+            a(class="insert-link" href="/insert/") Insert Product 
+            a(class="show-link" href="/show/") Show Product 
