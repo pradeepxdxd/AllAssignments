@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+.nav ul li {
+    display: inline;
+    color: white;
+}
+
+.heading {
+    font-size: 200%;
+    padding-left: 50px;
+    padding-right: 18px;
+}
+
+.nav {
+    /* border: 1px solid red; */
+    padding: 7px 0 7px 0;
+    background: rgb(58, 52, 52);
+}
+
+.nvright1 {
+    /* border: 1px solid green; */
+    float: right;
+    font-size: larger;
+    padding: 8px 8px 8px 8px;
+}
+
+.nvright1:hover {
+    background: rgb(31, 30, 30);
+    cursor: pointer;
+}
+
+.ion{
+    /* border: 1px solid red; */
+    margin: 1px 5px 0 0;
+}
+
+/* responsive */
+@media screen and (max-width: 1232px){
+    /* navbar */
+    .heading {
+        font-size: 150%;
+        padding-left: 50px;
+        padding-right: 18px;
+    }
+    .nav {
+        border: 1px solid red;
+        padding: 10px 0 10px 0;
+        background: rgb(58, 52, 52);
+    }
+    .nvright1 {
+        border: 1px solid green;
+        float: right;
+        font-size: medium;
+        padding: 2px 8px 0 8px;
+    }
+
+    /* boxes */
+    .flex3 {
+        /* margin-top: 20%; */
+        padding-top: 8%;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid rgb(0, 0, 0);
+        height: 480px;
+        width: auto;
+    }
+    .card1 {
+        border: 1px solid rgb(231, 229, 229);
+        height: 60%;
+        margin: 5% 5% 0 5%;
+        padding: 2% 2% 2% 2%;
+    }
+    .flex3 .card1 img .flexImg-a1{
+        width: 10%;
+        height: 10%;
+    }
+}
+
+/* img */
+
+.banner {
+    /* filter: blur(1px); */
+    position: absolute;
+    z-index: -1;
+}
+
+.maintext {
+    text-align: center;
+    color: white;
+    padding: 0 30% 0 30%;
+}
+
+.maxtext {
+    padding-top: 5%;
+}
+
+.minitext {
+    padding-top: 5%;
+}
+
+.greenBtn {
+    background: rgb(31, 235, 31);
+    width: 17%;
+    height: 40px;
+    margin: 10% 0 0 34%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+.greenBtn:hover{
+    background: rgb(168, 224, 64);
+    font: italic;
+}
+
+.blueBtn {
+    background: rgb(32, 112, 233);
+    width: 12%;
+    height: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    margin-left: 1%;
+}
+.blueBtn:hover{
+    background: rgb(74, 168, 223);
+}
+
+/* boxes */
+
+.flex3 {
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 480px;
+}
+
+.card1 {
+    border: 1px solid rgb(231, 229, 229);
+    height: 60%;
+    margin: 5% 0 0 5%;
+    padding: 2% 2% 2% 2%;
+}
+
+.card2 {
+    border: 1px solid rgb(231, 229, 229);
+    height: 60%;
+    margin: 5% 0 0 0;
+    padding: 2% 2% 2% 2%;
+}
+
+.card3 {
+    border: 1px solid rgb(231, 229, 229);
+    height: 60%;
+    margin: 5% 5% 0 0;
+    padding: 2% 2% 2% 2%;
+}
+
+.f1 {
+    margin-top: 2%;
+}
+
+.title1 {
+    /* border: 1px solid rgb(88, 112, 0); */
+    width: 60%;
+    float: right;
+    margin-right: 24%;
+    margin-top: 2%;
+}
+
+.subtitle {
+    font-size: small;
+}
+
+/* data */
+
+.data {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.data1 {
+    /* border: 1px solid red; */
+    margin: 5% 0 0 5%;
+    margin-bottom: 51px;
+    /* padding-right: 170px; */
+}
+
+.data2 {
+    /* border: 1px solid red; */
+    margin: 5% 0 0 0;
+    margin-bottom: 51px;
+    /* margin-right: 75px; */
+    padding-right: 50px;
+}
+
+.data3 {
+    /* border: 1px solid red; */
+    margin: 5% 0 0 0;
+    margin-right: 75px;
+    margin-bottom: 51px;
+    padding-right: 20px;
+}
+
+.dataimg1 {
+    border-radius: 55px;
+    /* position: absolute */
+}
+
+.di1 {
+    float: right;
+    margin: 15px 0 0 15px;
+}
+
+.di2 {
+    float: right;
+    /* border: 1px solid ; */
+    margin: 9px 0 0 9px;
+}
+
+.di3 {
+    float: right;
+    /* border: 1px solid ; */
+    margin: 15px 0 0 15px;
+}
+
+/* logos */
+
+.logos {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.log {
+    /* border: 1px solid rgb(4, 0, 250); */
+    /* margin-left: -200px; */
+}
+.feature{
+    padding: 63px 0 0 59px;
+    /* border: 1px solid ; */
+    margin-left: 1%;
+}
+.insta{
+    /* border: 1px solid red; */
+    margin: 16% 0 0 0;
+    /* border: 1px solid ; */
+}
+.logo1{
+    /* border: 1px solid red; */
+    /* margin-left: -428px; */
+}
+.linkedin{
+    /* border: 1px solid red; */
+}
+.logo2{
+    /* border: 1px solid red; */
+    margin-top: 19px;
+    /* margin-left: -385px; */
+}
+.toyota{
+    /* border: 1px solid red; */
+}
+.logo3{
+    /* border: 1px solid red; */
+    margin-top: 19px;
+    /* margin-left: -375px; */
+    /* margin-right: ; */
+}
+.logo4{
+    /* border: 1px solid red; */
+    /* margin-left: -292px; */
+    margin-right: 9%;
+}
+.fb{
+    /* border: 1px solid red; */
+    margin: 16% 0 0 0;
+    /* border: 1px solid ; */
+}
+
+/* footer */
+
+.footer {
+    height: 270px;
+    color: white;
+    background: rgb(49, 46, 46);
+    display: flex;
+}
+.main{
+    /* border: 1px solid red; */
+    margin: 25px;
+}
+.foot1{
+    margin-left: 78px;
+}
+.top{
+    margin-top: 50px;
+}
+.bullets{
+    list-style: none;
+    margin: 7px;
+    color: rgb(160, 160, 160);
+}
+.bullets:hover{
+    color: white;
+}
+.credit{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    /* margin-left: 500px; */
+    margin-left: 441px;
+}
+.ui{
+    /* border: 1px solid red; */
+    /* width: 200px; */
+    width: 243px;
+    height: 150px;
+}
+.icn{
+    /* border: 1px solid rgb(255, 0, 200); */
+    margin: 12% 2% 2% 2% ;
+}
+.cd{
+    margin-top: 66px;
+    padding-top: 29px;
+}
+.f-help:hover{
+    background: rgb(63, 101, 206);
+    cursor: pointer;
+}
+.i-help:hover{
+    background: rgb(238, 49, 122);
+    cursor: pointer;
+}
+.l-help:hover{
+    background: rgb(45, 65, 253);
+    cursor: pointer;
+}
+.footer, .main, p, ul, a{
+    text-decoration: none;
+}
+.cc{
+    color: rgb(160, 160, 160);
+}
