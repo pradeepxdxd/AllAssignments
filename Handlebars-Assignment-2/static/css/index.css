@@ -1,0 +1,9 @@
+body{
+    background: url('https://images.unsplash.com/photo-1669389755712-743c368ccc11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.slide-img-ht1{
+    height: 750px;
+}
