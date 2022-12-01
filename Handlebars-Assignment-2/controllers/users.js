@@ -1,4 +1,5 @@
 const fs = require('fs');
+
 const register = (req, res) => {
     let {name, email, pass, age, phone, city} = req.body;
     const emailRecord = fs.readFileSync('./user/record.txt').toString().split('\n');
@@ -15,7 +16,7 @@ const register = (req, res) => {
         res.render("register", {main:true, msg:"Registered Successfully"});
     }
 }
-// var name;
+
 const login = (req, res) => {
     let {email, pass} = req.body;
     const emailWithString = fs.readFileSync('./user/record.txt').toString().split('\n');
