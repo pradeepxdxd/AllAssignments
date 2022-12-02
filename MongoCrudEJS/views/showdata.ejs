@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+</head>
+
+<body>
+    <%- include('./partials/boot.ejs'); %>
+        <%- include('./partials/productHeader.ejs'); %>
+            <div class="container text-center">
+                <div class="row">
+
+                    <h1 class="mt-2"><small>Products</small></h1>
+                    <% for(let i=0; i < data.length; i++){ %>
+                        <div class="col-sm-6">
+                            <div class="card" style="width: 30rem;">
+                                <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80"
+                                    class="card-img-top" alt="error">
+                                <div class="card-body">
+                                    <h5 class="card-title">Name : <%= data[i].pname %>
+                                    </h5>
+                                    <h5 class="card-title">Price : <%= data[i].price %>
+                                    </h5>
+                                    <h5 class="card-title">Quantity : <%= data[i].quantity %>
+                                    </h5>
+                                    <!-- <a class="btn btn-info" href=`/update/<%= data[i].id %>` >Edit</a>
+                                    <a class="mt-1 btn btn-danger" href=`/delete/<%= data[i].id %>`>Delete</a> -->
+                                   
+                                    <!-- <form action=`/upload/<%= data[i]._id %>` method="post">
+                                        <button type="submit" class="btn btn-info">Edit</button>
+                                    </form> -->
+                                    <form action="/product/update/<%= data[i]._id %>" method="post">
+                                        <button type="submit" class="mt-2 btn btn-info">Edit</button>
+                                    </form>
+                                    <form action="/product/delete/<%= data[i]._id %>" method="post">
+                                        <button type="submit" class="mt-2 btn btn-danger">Delete</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    <% } %>
+                </div>
+
+            </div>
+</body>
+
+</html>
